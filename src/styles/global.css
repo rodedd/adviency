@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+
+  background-image: url("../assets//images/cute-sea-lion-animal-christmas-card-background.jpg");
+  background-position: bottom;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+
+  width: 100%;
+  height: 100vh;
+}
+
+body a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  font-size: 1.2rem;
+  text-decoration: none;
+}
