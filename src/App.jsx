@@ -7,9 +7,9 @@ import { GiftList } from './components/GiftList';
 import './styles/global.css';
 
 const initialState = [
-  '🎮 Nintendo Switch',
-  '💿 Future Nostalgia CD',
-  '🎮 Oculus Quest 2'
+  '🎮 Oculus Quest 2',
+  '💿 Future Nostalgia Neon Pink LP',
+  '📕 Kimetsu No Yaiba Manga',
 ];
 
 const App = () => {

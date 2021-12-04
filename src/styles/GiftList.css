@@ -12,6 +12,8 @@
 }
 
 .GiftList ul li {
+  display: flex;
+  justify-content: space-between;
   padding: 10px 0;
 
   color: #000;
@@ -23,4 +25,8 @@
 
 .GiftList ul li:last-child {
   border-bottom: none;
+}
+
+.GiftList ul li img {
+  cursor: pointer;
 }
